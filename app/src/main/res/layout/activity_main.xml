@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="324dp"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+    <Button
+        android:id="@+id/btnFoto"
+        android:layout_width="423dp"
+        android:layout_height="wrap_content"
+        android:text="Tomar Foto" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:text="NOMBRE:"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Ingrese su Nombre"
+        android:inputType="textMultiLine" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="DESCRIPCION"
+        android:textColor="#0E0E0E" />
+
+    <EditText
+        android:id="@+id/txtDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="nota"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:backgroundTint="@color/teal_200"
+        android:text="GUARDAR CONTACTO" />
+
+    <Button
+        android:id="@+id/btnImagenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTADO DE IMAGENES" />
+</LinearLayout>
